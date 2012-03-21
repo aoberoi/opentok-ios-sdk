@@ -11,6 +11,9 @@ http://www.tokbox.com/opentok/ios/docs/index.html
 
 See the topic on "Getting Started with the OpenTok iOS SDK."
 
-Also, look at the OpenTokHelloWorld sample in the sample directory. This is the simplest sample app. Then look at the OpenTokBasic sample, which uses more of the API.
+Also, look at the OpenTokHelloWorld sample in the sample directory. This is the simplest sample app. Then look at the OpenTokBasic sample, which uses more of the API. These sample apps are also at GitHub:
+
+https://github.com/opentok/OpenTok-iOS-Hello-World
+https://github.com/opentok/OpenTok-iOS-Basic-Tutorial
 
 Support is available at the OpenTok forums: http://www.tokbox.com/forums/
