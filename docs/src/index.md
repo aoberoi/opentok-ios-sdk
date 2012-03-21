@@ -2,5 +2,5 @@ Welcome to the OpenTok iOS SDK. For general information, see [Using the OpenTok 
 
 For a description of the sample apps, see:
 
-- [The OpenTokHello sample app](docs/HelloWorld-README.html)
-- [The OpenTokBasic sample app](docs/BasicSample-README.html)
+- [The OpenTokHello sample app](https://github.com/opentok/OpenTok-iOS-Hello-World)
+- [The OpenTokBasic sample app](https://github.com/opentok/OpenTok-iOS-Basic-Tutorial)
