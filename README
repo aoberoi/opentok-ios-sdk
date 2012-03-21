@@ -8,8 +8,8 @@ Documentation of the SDK is available here:
 
 http://www.tokbox.com/opentok/ios/docs/index.html
 
-(See the topic on getting started with the OpenTok iOS SDK.)
+See the topic on "Getting Started with the OpenTok iOS SDK."
 
-Also, look at the OpenTokHelloWorld sample in the sample directory. This is the most simplest sample app. Then look at the OpenTokBasic sample, which uses more of the API.
+Also, look at the OpenTokHelloWorld sample in the sample directory. This is the simplest sample app. Then look at the OpenTokBasic sample, which uses more of the API.
 
 Support is available at the OpenTok forums: http://www.tokbox.com/forums/
