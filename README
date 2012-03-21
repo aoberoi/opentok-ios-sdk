@@ -1,0 +1,40 @@
+OpenTok iOS SDK Readme -- A note from the developers
+
+This package contains what you need to get you started using the OpenTok iOS Library.
+
+===You will find===
+
+An OpenTokHello sample app that publishes to a demo session, and subscribes to its own stream (or any other stream in the session). There are some things to note about its configuration:
+
+1) Opentok.framework - The OpenTok iOS library. Drag this into the "Frameworks" folder on your project hierarchy.
+
+2) There are several linked frameworks and dynamic libraries provided by iOS. Unfortunately, we cannot pre-link them, so your project must do so. Expand the "Frameworks" directory in the project browser to get a list of dependencies. Fortunately, you can just drag and drop this assortment of frameworks into your own iOS projects from our sample applications.
+
+3) -ObjC in the "Other Linker Flags" property of the target. More on this below.
+
+4) A docs directory of the reference documentation for the API.
+
+You can connect to the same OpenTok session that the OpenTokHello sample app uses by going to http://staging.tokbox.com/opentok/api/tools/js/tutorials/helloworld.html. You can generate a new session ID at http://staging.tokbox.com/hl/session/create.
+
+===Getting started===
+
+Published streams are interoperable with browser-based OpenTok apps built with the current public OpenTok JavaScript library. The OpenTok iOS Library defaults to point to our staging environment. If you want to build a web-based app to go along with your iOS app, we encourage you to do so. For basic information on building an HTML-based app that uses the OpenTok JavaScript library, see http://www.tokbox.com/opentok/api/tools/js/tutorials/helloworld.html.
+
+Additionally, you'll need to create your own OpenTok session IDs for testing. To do so, go to http://staging.tokbox.com/hl/session/create.
+
+
+===Known issues===
+
+Our static library uses Objective-C categories. Your application will crash if you do not load the entire symbol table of the library at linking time. You can read more about this issue here:
+
+    http://developer.apple.com/library/mac/#qa/qa1490/_index.html
+
+For now, you should be able to get away with just adding -ObjC to the "Other Linker Flags" property of your build target.
+
+We do use LLVM's new ARC feature. This restricts apps to iOS 5.
+
+===Additional support===
+
+Documentation of the SDK is available: http://www.tokbox.com/opentok/ios/docs/index.html
+
+Support is available on our forums: http://www.tokbox.com/forums/
