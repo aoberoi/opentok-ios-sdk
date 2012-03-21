@@ -4,7 +4,7 @@ This package contains what you need to get you started using the OpenTok iOS Lib
 
 ===You will find===
 
-An OpenTokHello sample app that publishes to a demo session, and subscribes to its own stream (or any other stream in the session). There are some things to note about its configuration:
+There are some things to note about app project configurations:
 
 1) Opentok.framework - The OpenTok iOS library. Drag this into the "Frameworks" folder on your project hierarchy.
 
